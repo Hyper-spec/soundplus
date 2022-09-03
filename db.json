@@ -58,7 +58,7 @@
       "members": "LAKEY INSPIRED",
       "published_at": "2019",
       "thumbnail": "/covers/Lakey Inspired.png",
-      "description": "<p></p>",
+      "description": "<p>LAKEY INSPIRED</p>",
       "file": {
         "url": "/songs/overjoyed.mp3",
         "type": "audio/mp3",
@@ -206,6 +206,19 @@
         "url": "/songs/headoverheels.mp3",
         "type": "audio/mp3",
         "duration": 256
+      }
+    },
+    {
+      "id": "17",      
+      "title": "Proxima",
+      "members": "Tears For Fears",
+      "published_at": "2019",
+      "thumbnail": "/covers/proxima.jfif",
+      "description": "<p>Tears for Fears are an English pop rock band formed in Bath, England, in 1981 by Roland Orzabal and Curt Smith. Founded after the dissolution of their first band, the mod-influenced Graduate, Tears for Fears were associated with the new wave synthesizer bands of the early 1980s, and attained international chart success.</p>",
+      "file": {
+        "url": "/songs/proxima.mp3",
+        "type": "audio/mp3",
+        "duration": 289
       }
     }
   ]
