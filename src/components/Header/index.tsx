@@ -14,7 +14,7 @@ export function Header() {
 
 	return (
 		<header id='appHeader' className={styles.headerContainer}>
-            <h1 className={currentDate >= '18' && currentDate <= '23' ? styles.night :  styles.noNight}>Good Night</h1>
+            <h1 className={currentDate >= '18' && currentDate <= '23' ? styles.night :  styles.noNight}>Good Evening</h1>
             <h1 className={currentDate >= '00' && currentDate <= '11' ? styles.morning :  styles.noMorning}>Good Morning</h1>
             <h1 className={currentDate >= '12' && currentDate <= '17' ? styles.afternoon :  styles.noAfternoon}>Good Afternoon</h1>
 

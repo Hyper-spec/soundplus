@@ -44,7 +44,7 @@ export default function Episode({ episode }: EpisodeProps) {
 					</Link>
 					<Image
 						width={1200}
-						height={600}
+						height={540}
 						src={episode.thumbnail}
 						style={{filter: 'brightness(0.4)'}}
 						objectFit='cover'

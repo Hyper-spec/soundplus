@@ -80,7 +80,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <p>{episode.members}</p>
                 </div>
 
-                <button className={isDarkMode ? styles.btnGray : styles.btnBlack } type='button' onClick={() => Listen(episodeList, index)}>
+                <button type='button' onClick={() => Listen(episodeList, index)}>
                   {song.id === episode.id && isPlaying ? ( <img style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img className={isDarkMode ? ''  : styles.blackPlay} src="/play.svg" alt="Tocar episódio" />)} 
                 </button>
               </li>
@@ -121,7 +121,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                     {episode.durationAsString}
                   </td>
                   <td>
-                    <button className={isDarkMode ? styles.btnBlue : styles.btnBlack}type='button' onClick={() => Listen(episodeList, index + latestEpisodes.length)}>
+                    <button type='button' onClick={() => Listen(episodeList, index + latestEpisodes.length)}>
                       {song.id === episode.id && isPlaying ? ( <img className={styles.dancing} style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img className={isDarkMode ? '' : styles.blackPlay} src="/play.svg" alt="Tocar episódio" />)}
                     </button>
                   </td>
