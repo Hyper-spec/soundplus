@@ -239,10 +239,10 @@
       "title": "Waves",
       "members": "LIFELIKE",
       "published_at": "2002",
-      "thumbnail": "/covers/motion.jfif",
+      "thumbnail": "/covers/waves.jfif",
       "description": "<p>LIFELIKE</p>",
       "file": {
-        "url": "/songs/motion.mp3",
+        "url": "/songs/waves.mp3",
         "type": "audio/mp3",
         "duration": 289
       }
