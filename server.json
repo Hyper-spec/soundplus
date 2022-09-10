@@ -210,19 +210,6 @@
     },
     {
       "id": "17",      
-      "title": "Proxima",
-      "members": "Skeler",
-      "published_at": "2019",
-      "thumbnail": "/covers/proxima.jfif",
-      "description": "<p>Skeler</p>",
-      "file": {
-        "url": "/songs/proxima.mp3",
-        "type": "audio/mp3",
-        "duration": 289
-      }
-    },
-    {
-      "id": "18",      
       "title": "Waves",
       "members": "LIFELIKE",
       "published_at": "2004",
