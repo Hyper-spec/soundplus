@@ -218,33 +218,7 @@
       "file": {
         "url": "/songs/proxima.mp3",
         "type": "audio/mp3",
-        "duration": 256
-      }
-    },
-    {
-      "id": "18",      
-      "title": "Motion",
-      "members": "LIFELIKE",
-      "published_at": "2007",
-      "thumbnail": "/covers/motion.jfif",
-      "description": "<p>LIFELIKE</p>",
-      "file": {
-        "url": "/songs/motion.mp3",
-        "type": "audio/mp3",
-        "duration": 219
-      }
-    },
-    {
-      "id": "19",      
-      "title": "Waves",
-      "members": "LIFELIKE",
-      "published_at": "2002",
-      "thumbnail": "/covers/waves.jfif",
-      "description": "<p>LIFELIKE</p>",
-      "file": {
-        "url": "/songs/waves.mp3",
-        "type": "audio/mp3",
-        "duration": 257
+        "duration": 289
       }
     }
   ]
