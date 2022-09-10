@@ -218,7 +218,7 @@
       "file": {
         "url": "/songs/proxima.mp3",
         "type": "audio/mp3",
-        "duration": 289
+        "duration": 256
       }
     },
     {
@@ -231,7 +231,7 @@
       "file": {
         "url": "/songs/motion.mp3",
         "type": "audio/mp3",
-        "duration": 289
+        "duration": 283
       }
     },
     {
@@ -247,6 +247,5 @@
         "duration": 289
       }
     }
-
   ]
 }
