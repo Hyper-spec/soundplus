@@ -106,13 +106,13 @@
     },
     {
       "id": "9",      
-      "title": "I Feel Love",
-      "members": "JØRD",
+      "title": "Proxima",
+      "members": "Skeler",
       "published_at": "2017",
-      "thumbnail": "/covers/ifeellove.jpg",
+      "thumbnail": "/covers/proxima.jfif",
       "description": "<p>JØRD</p>",
       "file": {
-        "url": "/songs/ifeellove.mp3",
+        "url": "/songs/proxima.mp3",
         "type": "audio/mp3",
         "duration": 290
       }
