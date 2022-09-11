@@ -218,7 +218,20 @@
       "file": {
         "url": "/songs/waves.mp3",
         "type": "audio/mp3",
-        "duration": 290
+        "duration": 250
+      }
+    },
+    {
+      "id": "18",      
+      "title": "Motion",
+      "members": "LIFELIKE",
+      "published_at": "2006",
+      "thumbnail": "/covers/motion.jfif",
+      "description": "<p>LIFELIKE</p>",
+      "file": {
+        "url": "/songs/motion.mp3",
+        "type": "audio/mp3",
+        "duration": 270
       }
     }
   ]
