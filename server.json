@@ -106,13 +106,13 @@
     },
     {
       "id": "9",      
-      "title": "Save Me",
-      "members": "Vintage Culture",
+      "title": "I Feel Love",
+      "members": "JØRD",
       "published_at": "2017",
-      "thumbnail": "/covers/saveme.png",
-      "description": "<p>Lukas Rafael Ruiz Hespanhol (born July 7, 1993), known as Vintage Culture, is a Brazilian DJ and record producer. He had a great ascent releasing remixes of songs like Blue Monday by New Order and Another Brick in the Wall by Pink Floyd, these songs went viral together with his versions of Bete Balanço by Cazuza and Bidolibido  by Fernanda Abreu.</p>",
+      "thumbnail": "/covers/ifeellove.png",
+      "description": "<p>JØRD</p>",
       "file": {
-        "url": "/songs/saveme.mp3",
+        "url": "/songs/ifeellove.mp3",
         "type": "audio/mp3",
         "duration": 290
       }
@@ -219,19 +219,6 @@
         "url": "/songs/waves.mp3",
         "type": "audio/mp3",
         "duration": 250
-      }
-    },
-    {
-      "id": "18",      
-      "title": "Motion",
-      "members": "LIFELIKE",
-      "published_at": "2006",
-      "thumbnail": "/covers/motion.jfif",
-      "description": "<p>LIFELIKE</p>",
-      "file": {
-        "url": "/songs/motion.mp3",
-        "type": "audio/mp3",
-        "duration": 270
       }
     }
   ]
