@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: #fff;
+
+	--gray-50: #f7f8fa;
+	--gray-100: #e6e8eb;
+	--gray-200: #afb2b1;
+	--gray-500: #808080;
+	--gray-800: #494d4b;
+
+	--blue: #0096FF;
+
+	//darkMode:
+	--dark-background: #040303;
+	--dark-background-lighter: #121214;
+}
+
+html {
+	font-size: 81.25%; // 13px
+}
+
+//Práticas de acessibilidade:
+//Aplicar media queries para as primeiras variações de tamanhos de tela. Obs: utilizar sempre REM (relativa)
+@media (max-width: 1366px) {
+	html {
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 720px) {
+	html {
+		font-size: 87.5%; // 14px
+	}
+}
+
+body {
+	background: var(--gray-80);
+	overflow: hidden;
+	transition: all 0.1s ease-in-out;
+}
+
+body,
+input,
+textarea,
+button {
+	font: 500 1rem Inter, sans-serif;
+	color: var(--gray-500);
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	font-family: Lexend, sans-serif;
+	color: var(--gray-800);
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+button {
+	cursor: pointer;
+}
+
+li {
+	span {
+		font-size: 1.5rem;
+	}
+}
+
+.darkMode {
+	background: var(--dark-background);
+	color: var(--white);
+
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: var(--white);
+	}
+
+	p {
+		color: var(--gray-50);
+	}
+
+	
+
+	main {
+		header#appHeader {
+			background: linear-gradient(
+		    150deg,
+			#0095ff96 0%,
+	    	rgba(145, 100, 250, 0) 50%
+	        );
+			border: none;
+		}
+	}
+
+	.home_homePage__3mJ6H .home_latestEpisodes__sprHN ul li {
+		background: var(--dark-background-lighter);
+		border: 0;
+	}
+
+	.latestEpisodes {
+		background: var(--dark-background-lighter);
+	}
+
+	.home_homePage__3mJ6H .home_allEpisodes__EffYV ul.home_listAll__2zBvg li {
+		background: var(--dark-background-lighter);
+		border: 0;
+	}
+
+	.allEpisodes {
+		background: var(--dark-background);
+	}
+}
+
+.scrollableContent {
+	height: calc(100vh - 6.5rem);
+	overflow-y: auto;
+}

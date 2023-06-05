@@ -1,0 +1,225 @@
+{
+  "episodes": [
+    {
+      "id": "1",      
+      "title": "Tesla",
+      "members": "Corvad",
+      "published_at": "2018",
+      "thumbnail": "/covers/corvad.jfif",
+      "description": "<p>electronic music producer based in Europe, well known in world electronic music community for his uncompromising industrial and dark sound.</p>",
+      "file": {
+        "url": "/songs/tesla.mp3",
+        "type": "audio/mp3",
+        "duration": 326
+      }
+    },
+    {
+      "id": "2",      
+      "title": "Sweet Child O´ Mine",
+      "members": "Guns N´ Roses",
+      "published_at": "1987",
+      "thumbnail": "/covers/gunsnroses.png",
+      "description": "<p>Guns N' Roses is an American hard rock band from Los Angeles, California, formed in 1985. When they signed to Geffen Records in 1986, the band comprised vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler. The current lineup consists of Rose, Slash, McKagan, guitarist Richard Fortus, drummer Frank Ferrer and keyboardists Dizzy Reed and Melissa Reese.</p>\n",
+      "file": {
+        "url": "/songs/child.mp3",
+        "type": "audio/mp3",
+        "duration": 303
+      }
+    },
+    {
+      "id": "3",      
+      "title": "Let´s Dance",
+      "members": "David Bowie",
+      "published_at": "1983",
+      "thumbnail": "/covers/DavidBowie.png",
+      "description": "<p>David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie, was an English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music.</p>",
+      "file": {
+        "url": "/songs/letsdance.mp3",
+        "type": "audio/mp3",
+        "duration": 249
+      }
+    },
+    {
+      "id": "4",      
+      "title": "You Prefer Cocaine",
+      "members": "Vitalic",
+      "published_at": "2001",
+      "thumbnail": "/covers/Vitalic.png",
+      "description": "<p>Pascal Arbez-Nicolas born 18 May 1976), better known by his stage name Vitalic, is a French electronic music producer.</p>",
+      "file": {
+        "url": "/songs/cocaine.mp3",
+        "type": "audio/mp3",
+        "duration": 341
+      }
+    },
+    {
+      "id": "5",      
+      "title": "Overjoyed",
+      "members": "LAKEY INSPIRED",
+      "published_at": "2019",
+      "thumbnail": "/covers/Lakey Inspired.png",
+      "description": "<p>LAKEY INSPIRED</p>",
+      "file": {
+        "url": "/songs/overjoyed.mp3",
+        "type": "audio/mp3",
+        "duration": 160
+      }
+    },
+    {
+      "id": "6",      
+      "title": "Override",
+      "members": "DEADLIFE",
+      "published_at": "2019",
+      "thumbnail": "/covers/DEADLIFE.png",
+      "description": "<p>DEADLIFE (aka Ed Hawx) is a Darksynth producer from Manchester, United Kingdom. He was picked up by New Retro Wave Records after the success of his debut album, Bionic Chrysalis.</p>",
+      "file": {
+        "url": "/songs/override.mp3",
+        "type": "audio/mp3",
+        "duration": 319
+      }
+    },
+    {
+      "id": "7",      
+      "title": "It Comes",
+      "members": "Das Mortal",
+      "published_at": "2020",
+      "thumbnail": "/covers/dasmortal.png",
+      "description": "<p>Released October 30th 2020, Miami Beach Witches is Das Mörtal's new vision, where the neon lights, beaches and uplifting beats of classic acts such as Miami Sound Machine meet the sensibilities of the goth/emo music of Depeche Mode.</p>",
+      "file": {
+        "url": "/songs/itcomes.mp3",
+        "type": "audio/mp3",
+        "duration": 185
+      }
+    },
+    {
+      "id": "8",      
+      "title": "Haute Definition",
+      "members": "Vitalic",
+      "published_at": "2021",
+      "thumbnail": "/covers/haute.png",
+      "description": "<p>Pascal Arbez-Nicolas (French pronunciation: ​[paskal aʁbɛz nikɔla]; born 18 May 1976), better known by his stage name Vitalic (/ˈvɪtəlɪk/), is a French electronic music producer.</p>",
+      "file": {
+        "url": "/songs/haute.mp3",
+        "type": "audio/mp3",
+        "duration": 244
+      }
+    },
+    {
+      "id": "9",      
+      "title": "Proxima",
+      "members": "Skeler",
+      "published_at": "2017",
+      "thumbnail": "/covers/proxima.jfif",
+      "description": "<p>Skeler is a wave music artist from Australia</p>",
+      "file": {
+        "url": "/songs/proxima.mp3",
+        "type": "audio/mp3",
+        "duration": 290
+      }
+    },
+    {
+      "id": "10",      
+      "title": "True Faith",
+      "members": "New Order",
+      "published_at": "1987",
+      "thumbnail": "/covers/neworder.png",
+      "description": "<p>New Order are an English rock band formed in 1980 by vocalist and guitarist Bernard Sumner, bassist Peter Hook and drummer Stephen Morris. The band formed after the demise of Joy Division, following the suicide of lead singer Ian Curtis. They were joined by Gillian Gilbert on keyboards later that year. New Order's integration of post-punk with electronic and dance music made them one of the most acclaimed and influential bands of the 1980s. They were the flagship band for Manchester-based independent record label Factory Records and its nightclub The Haçienda, and they worked in long-term collaboration with graphic designer Peter Saville.</p>",
+      "file": {
+        "url": "/songs/truefaith.mp3",
+        "type": "audio/mp3",
+        "duration": 354
+      }
+    },
+    {
+      "id": "11",      
+      "title": "My Girl",
+      "members": "Vintage Culture",
+      "published_at": "2019",
+      "thumbnail": "/covers/vintage.png",
+      "description": "<p>Lukas Rafael Ruiz Hespanhol (born July 7, 1993), known as Vintage Culture, is a Brazilian DJ and record producer. He had a great ascent releasing remixes of songs like Blue Monda by New Order and Another Brick in the Wall by Pink Floyd, these songs went viral together with his versions of Bete Balanço by Cazuza and Bidolibido  by Fernanda Abreu.</p>",
+      "file": {
+        "url": "/songs/mygirl.mp3",
+        "type": "audio/mp3",
+        "duration": 234
+      }
+    },
+    {
+      "id": "12",      
+      "title": "Deviant",
+      "members": "DEADLIFE",
+      "published_at": "2017",
+      "thumbnail": "/covers/deadlife2.png",
+      "description": "<p>DEADLIFE (aka Ed Hawx) is a Darksynth producer from Manchester, United Kingdom. He was picked up by New Retro Wave Records after the success of his debut album, Bionic Chrysalis.</p>",
+      "file": {
+        "url": "/songs/deviant.mp3",
+        "type": "audio/mp3",
+        "duration": 334
+      }
+    }, 
+    {
+      "id": "13",      
+      "title": "Message in the Bottle",
+      "members": "The Police",
+      "published_at": "1979",
+      "thumbnail": "/covers/police.jfif",
+      "description": "<p>DEADLIFE (aka Ed Hawx) is a Darksynth producer from Manchester, United Kingdom. He was picked up by New Retro Wave Records after the success of his debut album, Bionic Chrysalis.</p>",
+      "file": {
+        "url": "/songs/message.mp3",
+        "type": "audio/mp3",
+        "duration": 260
+      }
+    },
+    {
+      "id": "14",      
+      "title": "Bad (2012 Remaster)",
+      "members": "Michael Jackson",
+      "published_at": "1987",
+      "thumbnail": "/covers/michael.jfif",
+      "description": "<p>Michael Jackson was an American singer, songwriter, and dancer who was the most popular entertainer in the world in the early and mid-1980s. Even today he is widely regarded as the “King of Pop.”</p>",
+      "file": {
+        "url": "/songs/bad.mp3",
+        "type": "audio/mp3",
+        "duration": 246
+      }
+    },
+    {
+      "id": "15",      
+      "title": "Heroes",
+      "members": "David Bowie",
+      "published_at": "1977",
+      "thumbnail": "/covers/bowie.png",
+      "description": "<p>David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie, was an English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music.</p>",
+      "file": {
+        "url": "/songs/heroes.mp3",
+        "type": "audio/mp3",
+        "duration": 246
+      }
+    },
+    {
+      "id": "16",      
+      "title": "Head Over Heels",
+      "members": "Tears For Fears",
+      "published_at": "1978",
+      "thumbnail": "/covers/headoverheels.jfif",
+      "description": "<p>Tears for Fears are an English pop rock band formed in Bath, England, in 1981 by Roland Orzabal and Curt Smith. Founded after the dissolution of their first band, the mod-influenced Graduate, Tears for Fears were associated with the new wave synthesizer bands of the early 1980s, and attained international chart success.</p>",
+      "file": {
+        "url": "/songs/headoverheels.mp3",
+        "type": "audio/mp3",
+        "duration": 256
+      }
+    },
+    {
+      "id": "17",      
+      "title": "Waves",
+      "members": "LIFELIKE",
+      "published_at": "2004",
+      "thumbnail": "/covers/waves.jfif",
+      "description": "<p>Pioneering the nu-disco sound, Laurent Ash aka Lifelike’s early productions soon pricked the ears of the likes of DJ Falcon and Thomas Bangalter (from Daft Punk), who playlisted his 'Black Chess' single during their Together 2002 tour, which if you’re a young Producer, is basically the equivalent of getting all six numbers in the lottery, finally introducing him very quickly into the very small but highly talented 'French Touch' family. A family of parisian artists that includes Daft Punk, Justice, Alan Braxe & Fred Falke, Air, Cassius... Almost every records he released since then gained instant support from BBC Radio 1’s Pete Tong & Annie Mac as well as the DJ bibles such as DJ Mag, MixMag and Future Music Magazine, calling his productions 'a sure-fire hit on dance floors' ,'walking that smooth and sexy line between nu-disco,new wave and funk' and 'a master of crafting credible dance floor beast.'</p>",
+      "file": {
+        "url": "/songs/waves.mp3",
+        "type": "audio/mp3",
+        "duration": 250
+      }
+    }
+  ]
+}

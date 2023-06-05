@@ -1,0 +1,334 @@
+.playerContainer {
+	padding: 2rem 3rem;
+	width: 28rem;
+	height: 100vh;
+	background: var(--dark-background-lighter);
+	color: var(--white);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	.overlay {
+		display: none;
+	}
+
+
+	header {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+	strong {
+		font-family: Lexend, sans-serif;
+		font-weight: 600;
+	}
+
+	footer {
+		align-self: stretch;
+
+		&.empty .progress {
+			opacity: 0.5;
+		}
+	}
+}
+
+.currentEpisode {
+	text-align: center;
+
+	img {
+		min-width: 5rem;
+		border-radius: 0.4rem;
+	}
+
+	strong {
+		display: block;
+		margin-top: 2rem;
+		font: 600 1.5rem Lexend, sans-serif;
+		line-height: 1.7rem;
+		cursor: pointer;
+	}
+
+	span {
+		display: block;
+		font-size: 0.95rem;
+		margin-top: 1rem;
+		opacity: 0.7;
+		line-height: 1.6rem;
+	}
+}
+
+.emptyPlayer {
+	width: 100%;
+	height: 20rem;
+	border-radius: 1.5rem;
+	background: linear-gradient(
+		143.8deg,
+		var(--blue) 0%,
+		rgba(145, 100, 250, 0) 100%
+	);
+	padding: 4rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.progress {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 0.875rem;
+
+	span {
+		display: inline-block;
+		width: 4rem;
+		text-align: center;
+	}
+
+	.slider {
+		flex: 1;
+		.emptySlider {
+			width: 100%;
+			height: 4px;
+			background: var(--blue);
+		}
+	}
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2.5rem;
+	gap: 2rem;
+
+	button {
+		background: transparent;
+		border: 0;
+		font-size: 0;
+		transition: filter 0.1s ease-in-out;
+		
+
+		&:disabled {
+			cursor: default;
+			opacity: 0.5;
+		}
+
+		&:hover:not(:disabled) {
+			filter: brightness(0.8);
+		}
+
+		&.isActive {
+			filter: invert(0.35) sepia(1) saturate(3) hue-rotate(150deg);
+
+			&::after {
+				content: '';
+				width: 5px;
+				height: 5px;
+				border-radius: 2px;
+			    background-color: var(--blue);
+				position: absolute;
+				left: 40%;
+				top: 110%;
+			}
+		}
+
+		&.isActive:hover {
+			filter: brightness(1) invert(0.35) sepia(1) saturate(3) hue-rotate(150deg);
+		}
+
+		&.playButton {
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+			background: var(--blue);
+			transition: filter 0.2s ease-in-out, background 0.2s ease-in-out;
+
+			&:hover:not(:disabled) {
+				filter: brightness(0.95);
+			}
+
+			&:active:not(:disabled) {
+				background: var(--blue);
+			}
+		}
+	}
+}
+
+.expandContainer {
+	width: 100%;
+
+	display: flex;
+	justify-content: flex-end;
+
+	button {
+		background: none;
+		border: none;
+
+		color: #fff;
+		font-size: 1.75rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.playerContainer {
+		flex-direction: row;
+		justify-content: space-between;
+		position: fixed;
+		bottom: 0;
+
+		border-radius: 1rem 1rem 0 0;;
+
+		width: 100%;
+		height: 8rem;
+		gap: 1rem;
+		padding: 3.5rem 1rem 6rem;
+		max-height: 90vh;
+
+
+		.header {
+			display: none;
+		}
+
+		.footer {
+			width: 33rem;
+			align-self: center;
+		}
+	}
+
+	.emptyPlayer {
+		display: none;
+	}
+	.empty {
+		justify-content: center;
+		width: 100%;
+		padding: 0;
+		.buttons {
+			margin: auto;
+		}
+	}
+
+	.mobilePlayer {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		img {
+			max-width: 5rem;
+			min-width: 5rem;
+			max-height: 2rem;
+			border-radius: 0.4rem;
+		}
+
+		.currentEpisode {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			min-width: 5rem;
+			min-height: 5rem;
+			.episodeInfo {
+				width: 100%;
+				display: block;
+				text-align: left;
+
+				strong {
+					font-size: 0.9rem;
+					margin-top: 0;
+
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+
+				span {
+					width: 4rem;
+					display: block;
+					margin-top: 0.1rem;
+					font-size: 0.8rem;
+
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+
+				.progress {
+					display: flex;
+					align-items: center;
+					width: 100%;
+					gap: 1rem;
+					font-size: 0.875rem;
+
+					span {
+						display: inline-block;
+						width: 4rem;
+						text-align: center;
+					}
+
+					.slider {
+						flex: 1;
+						.emptySlider {
+							width: 100%;
+							height: 4px;
+							background: var(--blue);
+						}
+					}
+				}
+			}
+		}
+	}
+	.playing {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.buttons {
+			margin: 0 auto;
+			gap: 1rem;
+
+			.image {
+				display: none;
+			}
+
+			button {
+				&.playButton {
+					width: 3.5rem;
+					height: 3.5rem;
+					border-radius: 50%;
+				}
+			}
+		}
+		.buttons button:first-child {
+			display: none;
+		}
+
+		.buttons button:last-child {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 820px) {
+	.mobilePlayer {
+
+		.currentEpisode {	
+			.episodeInfo {
+				strong {
+					display: block;
+					justify-content: left;
+	
+					text-overflow: ellipsis;
+					max-width: 5.5rem;
+					white-space: nowrap;
+				}
+	
+				.progress {
+					position: absolute;
+					bottom: 1rem;
+					left: 0;
+					padding: 0 1rem;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
