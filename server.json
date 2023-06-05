@@ -183,32 +183,6 @@
       }
     },
     {
-      "id": "15",      
-      "title": "Heroes",
-      "members": "David Bowie",
-      "published_at": "1977",
-      "thumbnail": "/covers/bowie.png",
-      "description": "<p>David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie, was an English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music.</p>",
-      "file": {
-        "url": "/songs/heroes.mp3",
-        "type": "audio/mp3",
-        "duration": 246
-      }
-    },
-    {
-      "id": "16",      
-      "title": "Head Over Heels",
-      "members": "Tears For Fears",
-      "published_at": "1978",
-      "thumbnail": "/covers/headoverheels.jfif",
-      "description": "<p>Tears for Fears are an English pop rock band formed in Bath, England, in 1981 by Roland Orzabal and Curt Smith. Founded after the dissolution of their first band, the mod-influenced Graduate, Tears for Fears were associated with the new wave synthesizer bands of the early 1980s, and attained international chart success.</p>",
-      "file": {
-        "url": "/songs/headoverheels.mp3",
-        "type": "audio/mp3",
-        "duration": 256
-      }
-    },
-    {
       "id": "17",      
       "title": "Waves",
       "members": "LIFELIKE",
