@@ -80,13 +80,13 @@
     },
     {
       "id": "7",      
-      "title": "It Comes",
-      "members": "Das Mortal",
-      "published_at": "2020",
-      "thumbnail": "/covers/dasmortal.png",
+      "title": "Treat Me This Way",
+      "members": "Otis Mc Donald",
+      "published_at": "2017",
+      "thumbnail": "/covers/treatmethisway.jfif",
       "description": "<p>Released October 30th 2020, Miami Beach Witches is Das Mörtal's new vision, where the neon lights, beaches and uplifting beats of classic acts such as Miami Sound Machine meet the sensibilities of the goth/emo music of Depeche Mode.</p>",
       "file": {
-        "url": "/songs/itcomes.mp3",
+        "url": "/songs/treatmethisway.mp3",
         "type": "audio/mp3",
         "duration": 185
       }
@@ -97,7 +97,7 @@
       "members": "Vitalic",
       "published_at": "2021",
       "thumbnail": "/covers/haute.png",
-      "description": "<p>Pascal Arbez-Nicolas (French pronunciation: ​[paskal aʁbɛz nikɔla]; born 18 May 1976), better known by his stage name Vitalic (/ˈvɪtəlɪk/), is a French electronic music producer.</p>",
+      "description": "<p>Pascal Arbez-Nicolas (born 18 May 1976), better known by his stage name Vitalic, is a French electronic music producer.</p>",
       "file": {
         "url": "/songs/haute.mp3",
         "type": "audio/mp3",
@@ -119,15 +119,15 @@
     },
     {
       "id": "10",      
-      "title": "True Faith",
-      "members": "New Order",
-      "published_at": "1987",
-      "thumbnail": "/covers/neworder.png",
-      "description": "<p>New Order are an English rock band formed in 1980 by vocalist and guitarist Bernard Sumner, bassist Peter Hook and drummer Stephen Morris. The band formed after the demise of Joy Division, following the suicide of lead singer Ian Curtis. They were joined by Gillian Gilbert on keyboards later that year. New Order's integration of post-punk with electronic and dance music made them one of the most acclaimed and influential bands of the 1980s. They were the flagship band for Manchester-based independent record label Factory Records and its nightclub The Haçienda, and they worked in long-term collaboration with graphic designer Peter Saville.</p>",
+      "title": "Crust",
+      "members": "Flying Lotus",
+      "published_at": "2018",
+      "thumbnail": "/covers/crust.jfif",
+      "description": "<p>Regard upon his 2006 arrival as a promising beatmaker looming in the shadows of J Dilla, Madlib, and Dabrye, Steven Elison - AKA Flying Lotus - nullfield all comparisons only two years later with Los Angeles</p>",
       "file": {
-        "url": "/songs/truefaith.mp3",
+        "url": "/songs/crust.mp3",
         "type": "audio/mp3",
-        "duration": 354
+        "duration": 134
       }
     },
     {
@@ -162,7 +162,7 @@
       "members": "The Police",
       "published_at": "1979",
       "thumbnail": "/covers/police.jfif",
-      "description": "<p>DEADLIFE (aka Ed Hawx) is a Darksynth producer from Manchester, United Kingdom. He was picked up by New Retro Wave Records after the success of his debut album, Bionic Chrysalis.</p>",
+      "description": "<p>Nominally, The Police were Punk Rock, but that´s only in the loosest sense of the term. The trio´s nervous, reaggae-injected pop/rock was punky, but it wasn´t necessarily punk.</p>",
       "file": {
         "url": "/songs/message.mp3",
         "type": "audio/mp3",

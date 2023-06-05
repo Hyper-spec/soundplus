@@ -71,7 +71,7 @@ export default function Episode({ episode }: EpisodeProps) {
 
 				<section className={styles.profile}>
 					<h1>This is <span style={{color: 'var(--blue)'}}>{episode.members}</span></h1>
-					<Image height={900} width={900} objectFit='cover' src={`/profile/${episode.members}.jfif`} />
+					<Image height={800} width={800} objectFit='cover' src={`/profile/${episode.members}.jfif`} />
 					<div
 						className={styles.description}
 						dangerouslySetInnerHTML={{ __html: episode.description }}

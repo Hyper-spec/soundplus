@@ -9,7 +9,6 @@ import { useEffect, useRef } from 'react';
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
 import styles from './home.module.scss';
 import { usePlayer } from '../contexts/PlayerContext';
-import { useTheme } from '../contexts/ThemeContextProvider';
 import {Header}  from '../components/Header/index';
 
 type Episode = {
@@ -31,7 +30,6 @@ type HomeProps = {
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 	const audioRef = useRef<HTMLAudioElement>(null);
 	const { playList, isPlaying, togglePlay, playNext, currentEpisodeIndex } = usePlayer();
-	const { isDarkMode } = useTheme();
 	const episodeList = [...latestEpisodes, ...allEpisodes];
 
   useEffect(() => {
@@ -70,7 +68,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         <ul>
           {latestEpisodes.map((episode, index) => {
             return (
-              <li className={isDarkMode ? styles.darkBg : ''} key={episode.id}>
+              <li key={episode.id}>
                 <Image width={120} height={120} objectFit='cover' src={episode.thumbnail} alt={episode.title}/>
 
                 <div className={styles.episodeDetails}>
@@ -81,7 +79,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 </div>
 
                 <button type='button' onClick={() => Listen(episodeList, index)}>
-                  {song.id === episode.id && isPlaying ? ( <img style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img className={isDarkMode ? ''  : styles.blackPlay} src="/play.svg" alt="Tocar episódio" />)} 
+                  {song.id === episode.id && isPlaying ? ( <img style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img src="/play.svg" alt="Tocar episódio" />)} 
                 </button>
               </li>
             )
@@ -122,7 +120,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   </td>
                   <td>
                     <button type='button' onClick={() => Listen(episodeList, index + latestEpisodes.length)}>
-                      {song.id === episode.id && isPlaying ? ( <img className={styles.dancing} style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img className={isDarkMode ? '' : styles.blackPlay} src="/play.svg" alt="Tocar episódio" />)}
+                      {song.id === episode.id && isPlaying ? ( <img className={styles.dancing} style={{width: '3rem', height: '3rem'}} src="/musicbar.gif" alt="Tocar episódio" />) : ( <img src="/play.svg" alt="Tocar episódio" />)}
                     </button>
                   </td>
                 </tr>

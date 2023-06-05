@@ -106,8 +106,8 @@ li {
 		header#appHeader {
 			background: linear-gradient(
 		    150deg,
-			#0095ff96 0%,
-	    	rgba(145, 100, 250, 0) 50%
+			var(--blue) 0%,
+	    	rgba(145, 100, 250, 0) 60%
 	        );
 			border: none;
 		}
